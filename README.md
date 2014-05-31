@@ -7,7 +7,7 @@ Pull Quote - Markdown Plugin
 
 The left half of the figure below shows the markdown syntax and the right half shows the resulting web page. The generated HTML markup is quite clean and non-repetitive as CSS3 is used. But note that the excerpt is an exactly copied from the body text and quite close to it.
 
-![side by side comparison](http://www.goodboydigital.com/pixijs/logo_small.png) 
+![side by side comparison](https://raw.githubusercontent.com/arocks/markdown-pullquote/master/side-by-side.png) 
 
 [pq]: http://en.wikipedia.org/wiki/Pull_quote
 
@@ -15,9 +15,9 @@ The left half of the figure below shows the markdown syntax and the right half s
 
 Usage instructions as applicable to Pelican.
 
-Copy the `src` directory into the `plugins` directory inside your pelican project. Rename the directory from `src` to `mdx_pullquote`
+Copy the `mdx_pullquote` directory into the `plugins` directory inside your pelican project.
 
-Next open `pelicanconf.py` and add `'pullquote'` to the `MD_EXTENSIONS` list, as follows:
+Next open your `pelicanconf.py` and add `'pullquote'` to the `MD_EXTENSIONS` list, as follows:
 
 ``` python
 
